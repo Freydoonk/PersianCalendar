@@ -1,7 +1,7 @@
 # PersianCalendar
 Persian (Jalali) Calendar in Java
 
-### Sample Usage
+## Sample Usage
 Here is an example of how you would use PersianCalendar:
 ```java
 PersianCalendar.DateStruct persianDate = PersianCalendar.gregorianToPersian(2016, 11, 6);   // 1395/8/16
@@ -17,7 +17,7 @@ pCalendar.getDayOfWeek(); // 2         --> 2 = Monday
 ```
 
 ## Note
-- FirstDayOfWeek in PersianCalendar is Saturday
-- DayOfWeek and Month is zero based. 
-    0: Farvardin, 1: Ordibehest and ...
-    0: Saturday, 1: Sunday and ...
+- **FirstDayOfWeek** in PersianCalendar is **Saturday**
+- **DayOfWeek** and **Month** is zero based. 
+   - **Month** : 0: Farvardin, 1: Ordibehesht and ...
+   - **DayOfWeek** 0: Saturday, 1: Sunday and ...
